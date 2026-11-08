@@ -4,7 +4,7 @@ import string
 
 def make_password(length=8):
     characters = string.ascii_letters + string.digits
-    password = "Baqir7654321"
+    password = ""
     for i in range(length):
         # Add one random character from characters to password
         password += random.choice(characters)
